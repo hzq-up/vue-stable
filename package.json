@@ -1,18 +1,23 @@
 {
-  "name": "s-table",
+  "name": "vue-stable",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name vue-stable --dest vue-stable"
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "lib-flexible": "^0.3.2",
+    "sass-loader": "^13.2.2",
     "vue": "^2.6.14"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "postcss-pxtorem": "^3.0.0",
+    "sass": "^1.62.1",
     "vue-template-compiler": "^2.6.14"
   },
   "browserslist": [
