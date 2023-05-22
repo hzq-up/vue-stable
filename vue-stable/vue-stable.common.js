@@ -492,7 +492,7 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  install: function() { return /* reexport */ install; }
+  "default": function() { return /* binding */ entry_lib; }
 });
 
 ;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+@vue+cli-service@5.0.1_@babel+core@7.21.8_sass-loader@13.2.2_vue-templ_rjt74qzuho5gscxhsyitinil34/node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
@@ -713,14 +713,16 @@ var component = normalizeComponent(
 ;// CONCATENATED MODULE: ./src/package/index.js
 
 const coms = [SimpleTable];
-function install(Vue) {
+const install = function (Vue) {
   coms.forEach(com => {
     Vue.component(com.name, com);
   });
-}
+};
+/* harmony default export */ var src_package = (install);
+;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+@vue+cli-service@5.0.1_@babel+core@7.21.8_sass-loader@13.2.2_vue-templ_rjt74qzuho5gscxhsyitinil34/node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+@vue+cli-service@5.0.1_@babel+core@7.21.8_sass-loader@13.2.2_vue-templ_rjt74qzuho5gscxhsyitinil34/node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
 
+/* harmony default export */ var entry_lib = (src_package);
 
 
 }();

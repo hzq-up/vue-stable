@@ -1,8 +1,9 @@
 {
   "name": "vue-stable",
-  "version": "1.0.0",
+  "version": "1.0.11",
+  "private": false,
   "description": "a beautiful and concise mobile vue table",
-  "main": "index.js",
+  "main": "vue-stable.common.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
