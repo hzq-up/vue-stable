@@ -1,4 +1,4 @@
-# s-table
+# vue-stable
 
 ## Project setup
 ```
