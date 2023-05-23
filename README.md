@@ -32,6 +32,7 @@ Vue.use(VueStable);
     :data="tableData"
     :cols="cols"
     :cellStyle="cellStyle"
+    :headerCellStyle="headerCellStyle"
     @click-cell="handleClickCell"
     :loading="loading"
     :finished="finished"
@@ -91,3 +92,22 @@ export default {
 
 # 参数说明（Documentation）
 
+* 属性 (Props)
+
+属性名(Name) | 说明(Description) | 类型(Type) | 默认值(Default)
+:-|:-|:-|:-
+<font color="red">*</font>&nbsp;data(必填)| 表格里面的数据 | Array | -
+<font color="red">*</font>&nbsp;cols(必填) | 列的配置值 | Object<br> {<br>`field`： 列数据在数据项中对应的字段<br>`title`：列头显示文字<br>`width`：列宽度<br>}| -
+cellStyle | 表格行单元格样式 | Object<br> 里面的样式名字用驼峰大小写 | {}
+headerCellStyle | 表头样式 | Object<br> 里面的样式名字用驼峰大小写 | {}
+<font color="red">*</font>&nbsp;loading(必填) | 是否加载数据中 | Boolean | -
+<font color="red">*</font>&nbsp;finished(必填)| 是否数据加载完成 | Boolean | -
+
+* 事件(Event)
+
+事件名 | 说明 |回调参数
+:-|:-|:-
+click-cell| 点击单元格时触发 | { value, col, colIndex, rowIndex }
+
+# 写在最后
+如果此项目对你有帮助，或者给你带来了灵感欢迎 &#9959; Star，您的支持就是我的动力！&#128536;谢谢！！！
