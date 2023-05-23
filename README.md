@@ -98,8 +98,8 @@ export default {
 :-|:-|:-|:-
 <font color="red">*</font>&nbsp;data(必填)| 表格里面的数据 | Array | -
 <font color="red">*</font>&nbsp;cols(必填) | 列的配置值 | Object<br> {<br>`field`： 列数据在数据项中对应的字段<br>`title`：列头显示文字<br>`width`：列宽度<br>}| -
-cellStyle | 表格行单元格样式 | Object<br> 里面的样式名字用驼峰大小写 | {}
-headerCellStyle | 表头样式 | Object<br> 里面的样式名字用驼峰大小写 | {}
+cellStyle | 表格行单元格样式 | Object<br> | {}
+headerCellStyle | 表头样式 | Object<br> | {}
 <font color="red">*</font>&nbsp;loading(必填) | 是否加载数据中 | Boolean | -
 <font color="red">*</font>&nbsp;finished(必填)| 是否数据加载完成 | Boolean | -
 
@@ -110,4 +110,4 @@ headerCellStyle | 表头样式 | Object<br> 里面的样式名字用驼峰大小
 click-cell| 点击单元格时触发 | { value, col, colIndex, rowIndex }
 
 # 写在最后
-如果此项目对你有帮助，或者给你带来了灵感欢迎 &#9959; Star，您的支持就是我的动力！&#128536;谢谢！！！
+如果此项目对你有帮助，或者给你带来了灵感欢迎来github &#9959; Star，您的支持就是我的动力！&#128536;谢谢！！！
