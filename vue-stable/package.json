@@ -1,6 +1,6 @@
 {
   "name": "vue-stable",
-  "version": "1.0.11",
+  "version": "1.0.19",
   "private": false,
   "description": "a beautiful and concise mobile vue table",
   "main": "vue-stable.common.js",

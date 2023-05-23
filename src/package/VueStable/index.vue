@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: "SimpleTable",
+  name: "VueStable",
   props: {
     headerCellStyle: {
       type: Object,
@@ -89,6 +89,7 @@ export default {
       text-align: left;
       padding: 6px 4px;
       color: #000000E0;
+      font-size: 14px;
       font-weight: bold;
       box-sizing: border-box;
 
@@ -144,9 +145,11 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: left;
         padding: 6px 4px;
         -webkit-tap-highlight-color: transparent;
+        color: #3D404D;
+        font-size: 14px;
         box-sizing: border-box;
       }
     }

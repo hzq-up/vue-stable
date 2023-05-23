@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <simple-table :data="tableData" :cols="cols" :cellStyle="cellStyle" :headerCellStyle="headerCellStyle"
+    <vue-stable :data="tableData" :cols="cols" :cellStyle="cellStyle" :headerCellStyle="headerCellStyle"
       @click-cell="handleClickCell" :loading="loading" :finished="finished">
-    </simple-table>
+    </vue-stable>
   </div>
 </template>
 
 <script>
-import SimpleTable from './package/SimpleTable/index.vue'
+import VueStable from './package/VueStable/index.vue'
 export default {
   name: 'App',
   components: {
-    SimpleTable
+    VueStable
   },
   data() {
     return {

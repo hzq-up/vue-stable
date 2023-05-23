@@ -11,7 +11,7 @@
 return /******/ (function() { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 12:
+/***/ 442:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -25,7 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_pnpm_registry_npmmirror_com_css_loader_6_7_4_webpack_5_83_1_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_pnpm_registry_npmmirror_com_css_loader_6_7_4_webpack_5_83_1_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".table[data-v-fbde0110]{background-color:#fffeff}.table-thead[data-v-fbde0110]{width:100%;min-height:44px;background-color:#fafafa;transition:background .2s,border-color .2s;border-bottom:1px solid #f0f0f0;border-top-left-radius:6px;border-top-right-radius:6px}.table-thead[data-v-fbde0110],.table-thead-tr[data-v-fbde0110]{display:flex;box-sizing:border-box}.table-thead-tr[data-v-fbde0110]{position:relative;justify-content:center;align-items:center;text-align:left;padding:6px 4px;color:rgba(0,0,0,.878);font-weight:700}.table-thead-tr[data-v-fbde0110]:before{position:absolute;top:50%;inset-inline-end:0;width:1px;height:20px;background-color:#f0f0f0;transform:translateY(-50%);transition:background-color .2s;content:\"\"}.table-thead-tr[data-v-fbde0110]:last-child:before{display:none}.table-body .finished[data-v-fbde0110],.table-body .loading[data-v-fbde0110]{height:50px;display:flex;justify-content:center;align-items:center;color:#969799;font-size:.875rem;background-color:#f7f8fa}.table-body-row[data-v-fbde0110]{display:flex;width:100%;min-height:44px;border-bottom:1px solid #f0f0f0;box-sizing:border-box}.table-body-row-cell[data-v-fbde0110]{text-align:center;padding:6px 4px;-webkit-tap-highlight-color:rgba(0,0,0,0)}.table-body .nodata[data-v-fbde0110],.table-body-row-cell[data-v-fbde0110]{display:flex;justify-content:center;align-items:center;box-sizing:border-box}.table-body .nodata[data-v-fbde0110]{flex-direction:column;padding:60px 0}.table-body .nodata-icon[data-v-fbde0110]{width:250px;height:160px}.table-body .nodata-text[data-v-fbde0110]{display:inline-block;margin-top:22px;color:#ccc;font-size:.75rem}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".table[data-v-062ad358]{background-color:#fffeff}.table-thead[data-v-062ad358]{width:100%;min-height:44px;background-color:#fafafa;transition:background .2s,border-color .2s;border-bottom:1px solid #f0f0f0;border-top-left-radius:6px;border-top-right-radius:6px}.table-thead[data-v-062ad358],.table-thead-tr[data-v-062ad358]{display:flex;box-sizing:border-box}.table-thead-tr[data-v-062ad358]{position:relative;justify-content:center;align-items:center;text-align:left;padding:6px 4px;color:rgba(0,0,0,.878);font-size:.875rem;font-weight:700}.table-thead-tr[data-v-062ad358]:before{position:absolute;top:50%;inset-inline-end:0;width:1px;height:20px;background-color:#f0f0f0;transform:translateY(-50%);transition:background-color .2s;content:\"\"}.table-thead-tr[data-v-062ad358]:last-child:before{display:none}.table-body .finished[data-v-062ad358],.table-body .loading[data-v-062ad358]{height:50px;display:flex;justify-content:center;align-items:center;color:#969799;font-size:.875rem;background-color:#f7f8fa}.table-body-row[data-v-062ad358]{display:flex;width:100%;min-height:44px;border-bottom:1px solid #f0f0f0;box-sizing:border-box}.table-body-row-cell[data-v-062ad358]{text-align:left;padding:6px 4px;-webkit-tap-highlight-color:rgba(0,0,0,0);color:#3d404d;font-size:.875rem}.table-body .nodata[data-v-062ad358],.table-body-row-cell[data-v-062ad358]{display:flex;justify-content:center;align-items:center;box-sizing:border-box}.table-body .nodata[data-v-062ad358]{flex-direction:column;padding:60px 0}.table-body .nodata-icon[data-v-062ad358]{width:250px;height:160px}.table-body .nodata-text[data-v-062ad358]{display:inline-block;margin-top:22px;color:#ccc;font-size:.75rem}", ""]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -136,19 +136,19 @@ module.exports = function (i) {
 
 /***/ }),
 
-/***/ 452:
+/***/ 719:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(12);
+var content = __webpack_require__(442);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = (__webpack_require__(828)/* ["default"] */ .Z)
-var update = add("7401be71", content, true, {"sourceMap":false,"shadowMode":false});
+var update = add("7a3628e8", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -522,14 +522,14 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/SimpleTable/index.vue?vue&type=template&id=fbde0110&scoped=true&
+;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/VueStable/index.vue?vue&type=template&id=062ad358&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"table"},[_c('div',{staticClass:"table-thead",style:(Object.assign({}, _vm.headerCellStyle))},_vm._l((_vm.cols),function(col,index){return _c('div',{key:index,staticClass:"table-thead-tr",style:({ width: col.width || 100 / _vm.cols.length + '%' })},[_vm._v(" "+_vm._s(col.title)+" ")])}),0),(_vm.data.length)?_c('div',{staticClass:"table-body"},[_c('div',{staticClass:"table-body-container"},_vm._l((_vm.data),function(table,index){return _c('div',{key:index,staticClass:"table-body-row",style:(Object.assign({}, _vm.cellStyle))},_vm._l((_vm.cols),function(col,i){return _c('div',{key:i,staticClass:"table-body-row-cell",style:({ width: col.width || 100 / _vm.cols.length + '%' }),domProps:{"innerHTML":_vm._s(table[col.field])},on:{"click":function($event){return _vm.handleClickCell(table[col.field], table, i, index)}}})}),0)}),0),(_vm.loading && !_vm.finished)?_c('div',{staticClass:"loading"},[_vm._v("加载中...")]):_vm._e(),(_vm.finished && !_vm.loading)?_c('div',{staticClass:"finished"},[_vm._v("- 没有更多数据了 -")]):_vm._e()]):_c('div',{staticClass:"table-body"},[_vm._m(0)])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"nodata"},[_c('img',{staticClass:"nodata-icon",attrs:{"src":"https://chaincar-cc.oss-cn-shenzhen.aliyuncs.com/xiaochengxu/common_no_data_icon.png"}}),_c('span',{staticClass:"nodata-text"},[_vm._v("暂无数据")])])}]
 
 
-;// CONCATENATED MODULE: ./src/package/SimpleTable/index.vue?vue&type=template&id=fbde0110&scoped=true&
+;// CONCATENATED MODULE: ./src/package/VueStable/index.vue?vue&type=template&id=062ad358&scoped=true&
 
-;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+thread-loader@3.0.4_webpack@5.83.1/node_modules/thread-loader/dist/cjs.js!./node_modules/.pnpm/registry.npmmirror.com+babel-loader@8.3.0_@babel+core@7.21.8_webpack@5.83.1/node_modules/babel-loader/lib/index.js??clonedRuleSet-80.use[1]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/SimpleTable/index.vue?vue&type=script&lang=js&
+;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+thread-loader@3.0.4_webpack@5.83.1/node_modules/thread-loader/dist/cjs.js!./node_modules/.pnpm/registry.npmmirror.com+babel-loader@8.3.0_@babel+core@7.21.8_webpack@5.83.1/node_modules/babel-loader/lib/index.js??clonedRuleSet-80.use[1]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/VueStable/index.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -563,8 +563,8 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
 //
 //
 
-/* harmony default export */ var SimpleTablevue_type_script_lang_js_ = ({
-  name: "SimpleTable",
+/* harmony default export */ var VueStablevue_type_script_lang_js_ = ({
+  name: "VueStable",
   props: {
     headerCellStyle: {
       type: Object
@@ -595,11 +595,11 @@ var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _
     }
   }
 });
-;// CONCATENATED MODULE: ./src/package/SimpleTable/index.vue?vue&type=script&lang=js&
- /* harmony default export */ var package_SimpleTablevue_type_script_lang_js_ = (SimpleTablevue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./node_modules/.pnpm/registry.npmmirror.com+vue-style-loader@4.1.3/node_modules/vue-style-loader/index.js??clonedRuleSet-62.use[0]!./node_modules/.pnpm/registry.npmmirror.com+css-loader@6.7.4_webpack@5.83.1/node_modules/css-loader/dist/cjs.js??clonedRuleSet-62.use[1]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/.pnpm/registry.npmmirror.com+postcss-loader@6.2.1_postcss@8.4.23_webpack@5.83.1/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-62.use[2]!./node_modules/.pnpm/registry.npmmirror.com+postcss-loader@6.2.1_postcss@8.4.23_webpack@5.83.1/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-62.use[3]!./node_modules/.pnpm/registry.npmmirror.com+sass-loader@13.2.2_sass@1.62.1_webpack@5.83.1/node_modules/sass-loader/dist/cjs.js??clonedRuleSet-62.use[4]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/SimpleTable/index.vue?vue&type=style&index=0&id=fbde0110&prod&lang=scss&scoped=true&
-var SimpleTablevue_type_style_index_0_id_fbde0110_prod_lang_scss_scoped_true_ = __webpack_require__(452);
-;// CONCATENATED MODULE: ./src/package/SimpleTable/index.vue?vue&type=style&index=0&id=fbde0110&prod&lang=scss&scoped=true&
+;// CONCATENATED MODULE: ./src/package/VueStable/index.vue?vue&type=script&lang=js&
+ /* harmony default export */ var package_VueStablevue_type_script_lang_js_ = (VueStablevue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/.pnpm/registry.npmmirror.com+vue-style-loader@4.1.3/node_modules/vue-style-loader/index.js??clonedRuleSet-62.use[0]!./node_modules/.pnpm/registry.npmmirror.com+css-loader@6.7.4_webpack@5.83.1/node_modules/css-loader/dist/cjs.js??clonedRuleSet-62.use[1]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/.pnpm/registry.npmmirror.com+postcss-loader@6.2.1_postcss@8.4.23_webpack@5.83.1/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-62.use[2]!./node_modules/.pnpm/registry.npmmirror.com+postcss-loader@6.2.1_postcss@8.4.23_webpack@5.83.1/node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-62.use[3]!./node_modules/.pnpm/registry.npmmirror.com+sass-loader@13.2.2_sass@1.62.1_webpack@5.83.1/node_modules/sass-loader/dist/cjs.js??clonedRuleSet-62.use[4]!./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/index.js??vue-loader-options!./src/package/VueStable/index.vue?vue&type=style&index=0&id=062ad358&prod&lang=scss&scoped=true&
+var VueStablevue_type_style_index_0_id_062ad358_prod_lang_scss_scoped_true_ = __webpack_require__(719);
+;// CONCATENATED MODULE: ./src/package/VueStable/index.vue?vue&type=style&index=0&id=062ad358&prod&lang=scss&scoped=true&
 
 ;// CONCATENATED MODULE: ./node_modules/.pnpm/registry.npmmirror.com+vue-loader@15.10.1_css-loader@6.7.4_vue-template-compiler@2.6.14_webpack@5.83.1/node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -699,7 +699,7 @@ function normalizeComponent(
   }
 }
 
-;// CONCATENATED MODULE: ./src/package/SimpleTable/index.vue
+;// CONCATENATED MODULE: ./src/package/VueStable/index.vue
 
 
 
@@ -709,20 +709,20 @@ function normalizeComponent(
 /* normalize component */
 
 var component = normalizeComponent(
-  package_SimpleTablevue_type_script_lang_js_,
+  package_VueStablevue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  "fbde0110",
+  "062ad358",
   null
   
 )
 
-/* harmony default export */ var SimpleTable = (component.exports);
+/* harmony default export */ var VueStable = (component.exports);
 ;// CONCATENATED MODULE: ./src/package/index.js
 
-const coms = [SimpleTable];
+const coms = [VueStable];
 const install = function (Vue) {
   coms.forEach(com => {
     Vue.component(com.name, com);
