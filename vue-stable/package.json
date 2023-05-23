@@ -1,0 +1,17 @@
+{
+  "name": "vue-stable",
+  "version": "1.0.22",
+  "private": false,
+  "description": "a beautiful and concise mobile vue table",
+  "main": "/dist/vue-stable.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hzq-up/vue-stable.git"
+  },
+  "keywords": [],
+  "author": "andyhu",
+  "license": "ISC"
+}

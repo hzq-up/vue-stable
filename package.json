@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "package": "vue-cli-service build --target lib ./src/package/index.js --name vue-stable --dest vue-stable"
+    "package": "vue-cli-service build --target lib ./src/package/index.js --name vue-stable --dest vue-stable/dist"
   },
   "dependencies": {
     "core-js": "^3.8.3",
