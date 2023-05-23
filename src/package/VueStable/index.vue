@@ -36,9 +36,11 @@ export default {
   props: {
     headerCellStyle: {
       type: Object,
+      default: () => ({})
     },
     cellStyle: {
       type: Object,
+      default: () => ({})
     },
     cols: {
       required: true,
@@ -49,14 +51,15 @@ export default {
       type: Array,
     },
     loading: {
-      // required: true,
+      required: true,
       type: Boolean,
     },
     finished: {
-      // required: true,
+      required: true,
       type: Boolean,
     },
   },
+
   methods: {
     handleClickCell(value, col, colIndex, rowIndex) {
       this.$emit("click-cell", value, col, colIndex, rowIndex);
