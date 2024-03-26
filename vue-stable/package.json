@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/hzq-up/vue-stable.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "github.com/hzq-up/vue-stable#readme",
   "keywords": [],
   "author": "andyhu",
