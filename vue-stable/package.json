@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hzq-up/vue-stable.git"
+    "url": "git+https://github.com/hzq-up/vue-stable.git"
   },
   "keywords": [],
   "author": "andyhu",
