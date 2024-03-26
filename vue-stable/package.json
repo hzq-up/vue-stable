@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/hzq-up/vue-stable.git"
   },
+  "homepage": "github.com/hzq-up/vue-stable#readme",
   "keywords": [],
   "author": "andyhu",
   "license": "ISC"
