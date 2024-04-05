@@ -1,6 +1,6 @@
 import VueStable from './VueStable/index.vue'
 
-const coms = [VueStable]
+const coms = [VueStable] 
 
 const install = function (Vue) {
   coms.forEach((com) => {
